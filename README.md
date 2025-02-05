@@ -4,7 +4,7 @@
 
 ## Why
 
-Currently Cloudflare doesn't provide an official linux/arm64 docker image of `cloudflared` suitable for devices like RaspberryPi and AWS Graviton.
+Currently Cloudflare doesn't provide an official linux/arm64 docker image of `cloudflared` suitable for devices like RaspberryPi (3B+) and AWS Graviton.
 
 ## Installing `cloudflared`
 
