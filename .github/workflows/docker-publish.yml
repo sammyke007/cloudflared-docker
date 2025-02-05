@@ -34,3 +34,7 @@ jobs:
 
       - name: Build and Push
         run: make docker-release
+        env:
+          VERSION: latest  # Of de versie die je wilt gebruiken, bijvoorbeeld v1.0
+          DOCKER_BUILDKIT: 1
+          DOCKER_CLI_EXPERIMENTAL: enabled
