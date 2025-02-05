@@ -16,8 +16,8 @@ docker-release:
 		--file build.Dockerfile \
 		--build-arg=CLOUDFLARED_VERSION=$(VERSION) \
 		--platform linux/amd64,linux/arm64,linux/arm/v7 \
-		--tag ghcr.io/milgradesec/cloudflared:$(VERSION) \
-		--tag ghcr.io/milgradesec/cloudflared:latest \
-		--tag milgradesec/cloudflared:$(VERSION) \
-		--tag milgradesec/cloudflared:latest \
+		--tag ghcr.io/sammyke007/cloudflared:$(VERSION) \
+		--tag ghcr.io/sammyke007/cloudflared:latest \
+		--tag sammyke007/cloudflared:$(VERSION) \
+		--tag sammyke007/cloudflared:latest \
 		--push
